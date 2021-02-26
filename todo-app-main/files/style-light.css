@@ -1,0 +1,37 @@
+.bottom-section-light{
+    background:#fff;
+}
+.bottom-section-dark{
+    background:hsl(235, 21%, 11%);
+}
+
+input .todo-search-dark {
+    background: hsl(235, 24%, 19%);
+    color: crimson;
+}
+
+input .todo-search-light {
+    background: #fff;
+}
+
+.todo-listing-dark{
+    background:hsl(235, 24%, 19%);
+}
+
+.todo-listing-light{
+    background:#fff;   
+}
+.todo-control-dark{
+    background: hsl(235, 24%, 19%);
+}
+.todo-control-light{
+    background: #fff;
+}
+
+.box-shadow{
+    box-shadow: 0 10px 8px -6px  hsl(180, 29%, 50%);
+}
+.control-shadow{
+    box-shadow: 0 10px 8px -6px  hsl(180, 29%, 50%);
+    color: hsl(234, 39%, 85%);
+}

@@ -1,0 +1,183 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', 'poppins', 'Open sans';
+    color: hsl(234, 40%, 79%);
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+.error{
+    color: crimson;
+}
+.cross{
+    text-decoration: line-through;
+    opacity: 0.4;
+}
+.bg-checker{
+    background:  linear-gradient (
+                hsl(192, 100%, 67%)
+                 to hsl(280, 87%, 65%));
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.visible{
+  display: "" !important;
+  /* visibility: visible; */
+}
+
+.not-visible{
+    display: none !important;
+    /* visibility: none ; */
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background: #333;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.container-content{
+    min-width: 1200px;
+    min-height: 600px;
+    position: relative;
+}
+
+.top-section{
+    height: 250px;
+    width: 100%;
+    background: url('../images/bg-desktop-dark.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: blue; */
+}
+
+.bottom-section{
+    min-height:350px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.todo-container{
+    position: absolute;
+    top: 50px;
+    left: auto;
+    width: 500px;
+    align-content: center;
+    cursor: pointer;
+}
+
+.todo-container nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0px 1rem 0px;
+}
+.todo-container nav h1{
+    font-size: 1.8rem;
+    letter-spacing: 5px;
+    font-weight: 500;
+    color: #fff;
+}
+.icon{
+    width: 25px;
+    height: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.icon-switcher{
+    background: url(../images/icon-sun.svg);
+}
+.icon-switcher-light{
+    background: url(../images/icon-moon.svg);
+}
+
+input{
+    padding: 10px;
+    display: block;
+    width: 100%;
+    background: hsl(235, 24%, 19%);
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+    font-size: 20px;
+}
+
+
+
+.todo-listing{
+    /* min-height: 200px; */
+    border-radius:5px 5px 0 0;
+    margin: 1em 0 0 0;
+    color: hsl(234, 39%, 85%);   
+}
+
+.todo-name{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    padding: 15px 10px;
+    border-bottom: 1px solid hsl(233, 14%, 35%);
+    line-height: 2px;
+}
+
+.todo-name h2{
+    letter-spacing: 1.5;
+}
+
+.todo-control{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+    border-radius: 0 0 5px 5px ;
+    color:  hsl(233, 14%, 35%);
+}
+
+.todo-control p{
+    color:  hsl(233, 14%, 35%);
+}
+
+.todo-control li{
+    list-style-type: none;
+    display: inline;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    color:  hsl(233, 14%, 35%);
+}
+.todo-control li:hover{
+   color:  hsl(255, 43%, 50%);
+   background: hsl(233, 14%, 35%);
+   border-radius: 5px;
+   font-weight: 500;
+}
+
+.checker{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 1px solid hsl(233, 14%, 35%);
+    margin: 0 10px;
+    cursor: pointer; 
+    background: none;
+    outline: 0;
+
+}
+
+
+
